@@ -1,3 +1,21 @@
+# FAST-LIO2-t
+
+基于 [hku-mars/FAST_LIO 的 ROS2 分支](https://github.com/hku-mars/FAST_LIO/tree/ROS2) 创建的个人项目仓库，目标环境为 ROS 2 Humble。
+
+- 保留上游提交历史及 ikd-Tree 子模块。
+- 上游来源、完整提交 SHA 与基线标签见 [repro/UPSTREAM.md](repro/UPSTREAM.md)。
+- 当前完成仓库初始化；尚未在本机编译或运行验证。
+
+克隆本仓库时，请同时初始化子模块：
+
+```bash
+git clone --recurse-submodules https://github.com/Wrosdeep1/FAST-LIO2-t.git
+```
+
+---
+
+以下为上游 README：
+
 > ROS2 Fork repo maintainer: [Ericsiii](https://github.com/Ericsii)
 
 ## Related Works and Extended Application
